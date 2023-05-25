@@ -10979,7 +10979,7 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 30rem;
+  width: 15rem;
 }
 
 @media (min-width: 992px) {
@@ -10997,6 +10997,13 @@ html {
 }
 .portfolio .portfolio-item {
   cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.portfolio .portfolio-item-disabled {
   position: relative;
   display: block;
   max-width: 25rem;
